@@ -5,7 +5,9 @@ def main():
     Use the same variables: celsius fahrenheit 
     ##################################################
     """
-
+    celsius = input('input celsius: ')
+    fahrenheit = (int(celsius) * 9/5) + 32
+    print (f'fahrenheit \t {fahrenheit:.2f}')
     """
     ########################################
     # Do not delete the return statement
@@ -16,3 +18,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
